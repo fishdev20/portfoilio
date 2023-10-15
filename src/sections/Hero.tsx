@@ -51,7 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I am a progressive Software developer with high-self motivation. A friendly Vietnamese based in Finland. Currently, I'm focused on building products at&nbsp;
+        I am a progressive Software developer with high-self motivation. A friendly Vietnamese based in Finland. Currently, I’m focused on building products at&nbsp;
         <Link href="https://www.triona.eu/" target="_blank" className="link">
           @Triona Oy.
         </Link>

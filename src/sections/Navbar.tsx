@@ -77,7 +77,7 @@ function Navbar() {
         >
           {responsiveNavVisible ? (
             <CgClose
-              onClick={(e) => {
+              onClick={(e: any) => {
                 e.stopPropagation();
                 setResponsiveNavVisible(false);
               }}
