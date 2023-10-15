@@ -1,0 +1,148 @@
+{
+    "experiences": [
+        {
+            "company": "Triona Oy",
+            "link": "https://triona.fi/",
+            "title": "Software Developer",
+            "duration": "October 2022 - Present",
+            "desc": [
+                "Building UI for mobile application and web application about fishing trip management in Finland.",
+                "Fixing bugs, refactoring codes, writing tests, writing docs.",
+                "Implemented functionalities, map interaction for desktop application for forwarders to manage harvesting of wood in the forest.",
+                "UX-UI design",
+                "Using Scrum methodology",
+                "Reviewing other developers's codes",
+                "Technologies: Typescript, React, React Native, Electron, Material UI, Open layers, Redux, Redux-toolkit, Springboot, Docker,..."
+            ]
+        },
+        {
+            "company": "Kassavirtanen Oy",
+            "link": "https://www.kassavirtanen.fi/en/",
+            "title": "Jr. Software Developer",
+            "duration": "Mar 2022 - October 2022",
+            "desc": [
+                "Building friendly user interface for billing and invoice services dash-board.",
+                "Fixing dash-board functionalities, fixing bugs.",
+                "Maintance, developping and implementing other company's products",
+                "Co-operated with other C#, .NET developers.",
+                "Technologies: Javascript, React, Material UI, Redux, Redux-saga, Microsoft Azure"
+            ]
+        },
+        {
+            "company": "Classfunc Software",
+            "link": "https://classfunc.com/",
+            "title": "Jr. Frontend Developer",
+            "duration": "Jul 2021 - Mar 2022",
+            "desc": [
+                "Built and developed UI components with Reactjs for Calendar, Streaming platform, Meeting application for business of Japanese customers.",
+                "Bug fixing, Implement functionalities",
+                "Technologies: Javascript, React, Node.js, Firebase, TailwindCss"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"Food Recipes",
+            "image": "/images/coming_soon.jpeg",
+            "desc": "Full stack food recipe. Backend with Springboot, Frontend with React, Typescript, MaterialUI, Database with PostgreSQL and Docker. Functionalities: Register, Login, CRUD recipes, auto genarate nutrions table so user can track calories, fat,... Coming soon!",
+            "skills": ["React","Typescript","Springboot","PostgreSQL","Docker", "MUI"],
+            "github": "https://github.com/fishdev20/food-receipt-backend",
+            "link": "https://github.com/fishdev20/food-recipe-frontend"
+        },
+        {
+            "title":"Blog Website",
+            "image": "/images/coming_soon.jpeg",
+            "desc": "Fullstack MERN blog website. Coming soon!",
+            "skills": ["React","Typescript","Node.js","Express.js","MongoDB"],
+            "github": "https://github.com/fishdev20/BLOG-MERN-TYPESCRIPT",
+            "link": "/"
+        },
+        {
+            "title":"Portfolio V2",
+            "image": "/images/portfolio_v2.png",
+            "desc": "My second portfolio",
+            "skills": ["React","Javascript"],
+            "github": "https://github.com/fishdev20/portfolio-v2",
+            "link": "https://minhnguyen2.netlify.app/"
+        },
+        {
+            "title":"Portfolio V1",
+            "image": "/images/portfolio_v1.png",
+            "desc": "First version of my portfolio. This was built with React, Styled Components and deploy with Firebase",
+            "skills": ["React"],
+            "github": "https://github.com/fishdev20/Minh-Nguyen-main",
+            "link": "https://portforlio-minhnguyen.web.app/"
+        },
+        {
+            "title":"Multi language website with Typescript + Redux",
+            "image": "/images/multi_language.png",
+            "desc": "How to implement a multi language website using Typescript and Redux",
+            "skills": ["React","Typescript", "Redux"],
+            "github": "https://github.com/fishdev20/multi-language-typescript-redux",
+            "link": "https://multi-language-page.netlify.app/"
+        },
+        {
+            "title":"Dev Academy Assignments of Solita",
+            "image": "/images/bike_application.png",
+            "desc": "A full-stack pre-assignments of Solita Dev Academy 2022, imported some csv files and stored in Mongodb, front-end was built with React, some animation with Gsap, used Ant Design to spice the UI up. Back-end was built with Node.js and Express.js. This application can be used to look up and find bike station in Finland, user can also find and add more journeys to the tables.",
+            "skills": ["React","Node.js", "Express.js", "MongoDB"],
+            "github": "https://github.com/fishdev20/bike-application",
+            "link": "/"
+        },
+        {
+            "title":"Simple CRUD application",
+            "image": "/images/crud.png",
+            "desc": "A simple Node.js application to know the flow how Nodejs works, functionalities: Create user, Update user, Delete user",
+            "skills": ["Node.js", "Express.js", "EJS"],
+            "github": "https://github.com/fishdev20/CRUD_application",
+            "link": "https://users-managementt.herokuapp.com/"
+        },
+        {
+            "title":"Shooping Cart",
+            "image": "/images/shopping_cart.png",
+            "desc": "Practicing with Typescript, user can add some items to the cart, delete the items in the cart",
+            "skills": ["React", "Typescript"],
+            "github": "https://github.com/fishdev20/Shoping_Cart_Typescript",
+            "link": "https://shopping-cart-vite.netlify.app/"
+        },
+        {
+            "title":"Animation Hero Section and Menu",
+            "image": "/images/anmation_hero.png",
+            "desc": "Animation using gsap and sass to make a web page lively and eye-catching, also include an light and dark mode",
+            "skills": ["React", "Gsap", "Sass"],
+            "github": "https://github.com/fishdev20/animation-hero-section-and-menu",
+            "link": "https://gsap-motion.netlify.app/"
+        }
+    ],
+    "recenTechnologies" : [
+        "Javascript (ES6+)",
+        "TypeScript",
+        "React",
+        "React Native",
+        "Next.js",
+        "Electron",
+        "Redux",
+        "Zustard",
+        "Node.js",
+        "Springboot",
+        "Docker",
+        "Framer motion",
+        "Microsoft Azure"
+        
+    ],
+    "otherTech" : [
+        "MongoDB",
+        "PostgreSQL",
+        "Material UI",
+        "Ant design",
+        "Firebase",
+        "Open layers"
+        
+    ],
+    "skills": {
+        "language" : ["Javascript (ES6+)", "TypeScript"],
+        "frontEnd" : ["React.js", "React Native", "Next.js"],
+        "backEnd" : ["Node.js", "Express.js", "Firebase", "MongoDb"],
+        "uiFramework" : ["Ant Design", "Material Ui", "Gsap", "Framer motion", "Tailwind Css", "Sass"]
+    }
+}
