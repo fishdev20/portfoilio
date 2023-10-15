@@ -74,7 +74,7 @@
             "link": "https://portforlio-minhnguyen.web.app/"
         },
         {
-            "title":"Multi language website with Typescript + Redux",
+            "title":"Multi language website",
             "image": "/images/multi_language.png",
             "desc": "How to implement a multi language website using Typescript and Redux",
             "skills": ["React","Typescript", "Redux"],
@@ -82,7 +82,7 @@
             "link": "https://multi-language-page.netlify.app/"
         },
         {
-            "title":"Dev Academy Assignments of Solita",
+            "title":"Bike App",
             "image": "/images/bike_application.png",
             "desc": "A full-stack pre-assignments of Solita Dev Academy 2022, imported some csv files and stored in Mongodb, front-end was built with React, some animation with Gsap, used Ant Design to spice the UI up. Back-end was built with Node.js and Express.js. This application can be used to look up and find bike station in Finland, user can also find and add more journeys to the tables.",
             "skills": ["React","Node.js", "Express.js", "MongoDB"],
@@ -90,7 +90,7 @@
             "link": "/"
         },
         {
-            "title":"Simple CRUD application",
+            "title":"CRUD application",
             "image": "/images/crud.png",
             "desc": "A simple Node.js application to know the flow how Nodejs works, functionalities: Create user, Update user, Delete user",
             "skills": ["Node.js", "Express.js", "EJS"],
@@ -106,7 +106,7 @@
             "link": "https://shopping-cart-vite.netlify.app/"
         },
         {
-            "title":"Animation Hero Section and Menu",
+            "title":"Animation Page",
             "image": "/images/anmation_hero.png",
             "desc": "Animation using gsap and sass to make a web page lively and eye-catching, also include an light and dark mode",
             "skills": ["React", "Gsap", "Sass"],
