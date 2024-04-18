@@ -1,6 +1,5 @@
 .experience {
   margin: 15rem auto;
-  max-width: 700px;
   .title {
     font-family: var(--raleway);
     color: var(--lightest-slate);
@@ -65,7 +64,7 @@
           align-items: center;
           color: var(--slate);
           font-family: var(--fira-code);
-          font-size: var(--tsm1);
+          font-size: var(--tlarge);
         }
         &:hover {
           background-color: var(--light-navy);
@@ -103,6 +102,7 @@
           position: relative;
           color: var(--slate);
           font-weight: 500;
+          font-size: var(--tlarge);
           &::before {
             content: "▹";
             position: absolute;
