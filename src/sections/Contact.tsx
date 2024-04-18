@@ -1,8 +1,6 @@
 import Button from "@/components/Button";
-import React from "react";
 import { motion } from "framer-motion";
-import { useLottie } from "lottie-react";
-import hand from '../../public/animation/hand.json'
+import hand from '../../public/animation/hand.json';
 
 function Contact() {
 
@@ -10,8 +8,6 @@ function Contact() {
     animationData: hand,
     loop: true,
   };
-
-  const { View } = useLottie(options, {height: 20, width: 20, marginLeft: 5});
 
   return (
     <motion.div
@@ -34,7 +30,7 @@ function Contact() {
         try my best to get back to you!
       </p>
       <div className="contact-cta">
-        <Button link="mailto:minhnguyen.dev20@gmail.com" text="Say Hello">{View}</Button>
+        <Button link="mailto:minhnguyen.dev20@gmail.com" text="Say Hello"></Button>
       </div>
     </motion.div>
   );

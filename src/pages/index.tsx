@@ -1,16 +1,15 @@
-import Head from "next/head";
+import CustomParticles from "@/components/CustomParticles";
 import Email from "@/components/Email";
 import Loader from "@/components/Loader";
 import SocialIcons from "@/components/SocialIcons";
-import Footer from "@/sections/Footer";
-import Hero from "@/sections/Hero";
-import Navbar from "@/sections/Navbar";
-import React, { useState } from "react";
 import About from "@/sections/About";
 import Contact from "@/sections/Contact";
-import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
-import CustomParticles from "@/components/CustomParticles";
+import Hero from "@/sections/Hero";
+import Navbar from "@/sections/Navbar";
+import Projects from "@/sections/Projects";
+import Head from "next/head";
+import { useState } from "react";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,7 +39,7 @@ function Index() {
             <Projects />
             <Contact />
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </>
       )}
       <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />

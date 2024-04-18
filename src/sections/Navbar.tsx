@@ -1,10 +1,9 @@
-import Button from "@/components/Button";
 import Logo from "@/components/Logo";
-import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { CgClose } from "react-icons/cg";
-import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { CgClose } from "react-icons/cg";
+import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
@@ -19,11 +18,19 @@ function Navbar() {
   ];
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      window.pageYOffset > 100
-        ? setNavbarVisible(true)
-        : setNavbarVisible(false);
-    });
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop){
+            setNavbarVisible(false);
+            console.log("Scrolling down");
+        } else {
+            setNavbarVisible(true)
+            console.log("Scrolling up");
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, false);
   }, []);
 
   useEffect(() => {

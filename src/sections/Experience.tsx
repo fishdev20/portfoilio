@@ -1,14 +1,14 @@
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import constant from '../../public/constant.json';
 function Experience() {
   const [selected, setSelected] = useState(0);
 
   useEffect(() => {
     const transformSelected = () => {
-      const underline = document.querySelector<HTMLElement>(".underline");
-      underline!.style.top = `${selected * 2.5}rem`;
+      const underline = document?.querySelector<HTMLElement>(".underline");
+      underline!.style.top = `${selected * 3}rem`;
     };
     transformSelected();
   }, [selected]);

@@ -54,8 +54,8 @@
         {
             "title":"Deploy a Node app to Docker and EC2 Instance using Github Actions",
             "image": "/images/coming_soon.jpeg",
-            "desc": "Ongoing personal project, use for downloading multiple images from urls, upcoming function: srcaping a website to download all the images of the website.",
-            "skills": ["Nodejs","Typescript","AWS","Docker", "Github Actions"],
+            "desc": "How to deploy a Nodejs app to Docker and AWS EC2 Instance using Github Actions",
+            "skills": ["Nodejs","Typescript","AWS","Docker", "Github Actions", "Linux"],
             "github": "https://github.com/fishdev20/cicd-docker-ec2",
             "link": "https://github.com/fishdev20/cicd-docker-ec2"
         },
