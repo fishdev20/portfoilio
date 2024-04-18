@@ -6,13 +6,14 @@
             "title": "Software Developer",
             "duration": "October 2022 - Present",
             "desc": [
-                "Building UI for mobile application and web application about fishing trip management in Finland.",
-                "Fixing bugs, refactoring codes, writing tests, writing docs.",
-                "Implemented functionalities, map interaction for desktop application for forwarders to manage harvesting of wood in the forest.",
-                "UX-UI design",
-                "Using Scrum methodology",
-                "Reviewing other developers's codes",
-                "Technologies: Typescript, React, React Native, Electron, Material UI, Open layers, Redux, Redux-toolkit, Springboot, Docker,..."
+                "Developed user interfaces for both mobile and web applications focused on managing fishing trips in Finland.",
+                "Performed bug fixes, code refactoring, test writing, and documentation improvements.",
+                "Engaged in full-stack development for a desktop application tailored to forwarders, enabling streamlined management of wood harvesting operations in forest environments.",
+                "Contributed to UX/UI design enhancements to ensure optimal user experience across applications.",
+                "Adhered to the Scrum methodology for agile project management.",
+                "Conducted thorough code reviews to maintain code quality and consistency.",
+                "Onboarded and mentered interns during their training programs",
+                "Technologies: Typescript, React, React Native, Electron, Material UI, Open layers, Zustand, Redis, Redux, Redux-toolkit, Springboot, Docker,..."
             ]
         },
         {
@@ -21,10 +22,11 @@
             "title": "Jr. Software Developer",
             "duration": "Mar 2022 - October 2022",
             "desc": [
-                "Building friendly user interface for billing and invoice services dash-board.",
-                "Fixing dash-board functionalities, fixing bugs.",
-                "Maintance, developping and implementing other company's products",
-                "Co-operated with other C#, .NET developers.",
+                "Developed a user-friendly interface for billing and invoicing services dashboard.",
+                "Resolved issues and bugs in dashboard functionalities.",
+                "Maintained, developed, and implemented other products such as job portal",
+                "Contributed to UX/UI design enhancements to ensure optimal user experience across applications.",
+                "Collaborated with fellow C#, .NET developers.",
                 "Technologies: Javascript, React, Material UI, Redux, Redux-saga, Microsoft Azure"
             ]
         },
@@ -34,13 +36,29 @@
             "title": "Jr. Frontend Developer",
             "duration": "Jul 2021 - Mar 2022",
             "desc": [
-                "Built and developed UI components with Reactjs for Calendar, Streaming platform, Meeting application for business of Japanese customers.",
-                "Bug fixing, Implement functionalities",
+                "Designed and developed UI components using React.js for calendar, streaming platforms, and meeting applications tailored to Japanese clients' business needs.",
+                "Addressed bugs and implemented new functionalities.",
                 "Technologies: Javascript, React, Node.js, Firebase, TailwindCss"
             ]
         }
     ],
     "projects": [
+        {
+            "title":"Multiple images downloader",
+            "image": "/images/coming_soon.jpeg",
+            "desc": "Ongoing personal project, use for downloading multiple images from urls, upcoming function: srcaping a website to download all the images of the website.",
+            "skills": ["NextJs","Typescript","Zod","TailwindCss", "Github Actions"],
+            "github": "https://github.com/fishdev20/multiple-image-downloader",
+            "link": "https://multiple-image-downloader.vercel.app/"
+        },
+        {
+            "title":"Deploy a Node app to Docker and EC2 Instance using Github Actions",
+            "image": "/images/coming_soon.jpeg",
+            "desc": "Ongoing personal project, use for downloading multiple images from urls, upcoming function: srcaping a website to download all the images of the website.",
+            "skills": ["Nodejs","Typescript","AWS","Docker", "Github Actions"],
+            "github": "https://github.com/fishdev20/cicd-docker-ec2",
+            "link": "https://github.com/fishdev20/cicd-docker-ec2"
+        },
         {
             "title":"Food Recipes",
             "image": "/images/coming_soon.jpeg",
@@ -60,15 +78,15 @@
         {
             "title":"Portfolio V2",
             "image": "/images/portfolio_v2.png",
-            "desc": "My second portfolio",
-            "skills": ["React","Javascript"],
+            "desc": "My second version portfolio.",
+            "skills": ["React","Typescript", "Sass", "Framer motion"],
             "github": "https://github.com/fishdev20/portfolio-v2",
-            "link": "https://minhnguyen2.netlify.app/"
+            "link": "https://minhng.netlify.app/"
         },
         {
             "title":"Portfolio V1",
             "image": "/images/portfolio_v1.png",
-            "desc": "First version of my portfolio. This was built with React, Styled Components and deploy with Firebase",
+            "desc": "First version of my portfolio.",
             "skills": ["React"],
             "github": "https://github.com/fishdev20/Minh-Nguyen-main",
             "link": "https://portforlio-minhnguyen.web.app/"
@@ -92,7 +110,7 @@
         {
             "title":"CRUD application",
             "image": "/images/crud.png",
-            "desc": "A simple Node.js application to know the flow how Nodejs works, functionalities: Create user, Update user, Delete user",
+            "desc": "A simple Node.js application, functionalities: Create user, Update user, Delete user",
             "skills": ["Node.js", "Express.js", "EJS"],
             "github": "https://github.com/fishdev20/CRUD_application",
             "link": "https://users-managementt.herokuapp.com/"
@@ -100,7 +118,7 @@
         {
             "title":"Shooping Cart",
             "image": "/images/shopping_cart.png",
-            "desc": "Practicing with Typescript, user can add some items to the cart, delete the items in the cart",
+            "desc": "User can add some items to the cart, delete the items in the cart",
             "skills": ["React", "Typescript"],
             "github": "https://github.com/fishdev20/Shoping_Cart_Typescript",
             "link": "https://shopping-cart-vite.netlify.app/"
@@ -111,7 +129,7 @@
             "desc": "Animation using gsap and sass to make a web page lively and eye-catching, also include an light and dark mode",
             "skills": ["React", "Gsap", "Sass"],
             "github": "https://github.com/fishdev20/animation-hero-section-and-menu",
-            "link": "https://gsap-motion.netlify.app/"
+            "link": "https://animation-red-one.vercel.app/"
         }
     ],
     "recenTechnologies" : [
@@ -126,17 +144,22 @@
         "Node.js",
         "Springboot",
         "Docker",
-        "Framer motion",
-        "Microsoft Azure"
+        "Redis",
+        "Framer motion"
         
     ],
     "otherTech" : [
         "MongoDB",
         "PostgreSQL",
+        "Sqlite",
         "Material UI",
         "Ant design",
         "Firebase",
-        "Open layers"
+        "Open layers",
+        "Gitlab CI/CD",
+        "Github Actions",
+        "AWS EC2",
+        "Tansquerry"
         
     ],
     "skills": {
