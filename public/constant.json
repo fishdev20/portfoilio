@@ -44,6 +44,14 @@
     ],
     "projects": [
         {
+            "title":"Dev Blog",
+            "image": "/images/blog.png",
+            "desc": "Explore Minh(Marcus)'s software engineering journey filled with insights, tips, and wisdom. A must-read for developers seeking practical knowledge and inspiration",
+            "skills": ["NextJs","Typescript","Sanity CMS","TailwindCss", "Github Actions"],
+            "github": "https://github.com/fishdev20/sanity-blog",
+            "link": "https://marcusng-blog.vercel.app/"
+        },
+        {
             "title":"Multiple images downloader",
             "image": "/images/coming_soon.jpeg",
             "desc": "Ongoing personal project, use for downloading multiple images from urls, upcoming function: srcaping a website to download all the images of the website.",
