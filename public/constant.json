@@ -68,6 +68,14 @@
             "link": "https://github.com/fishdev20/cicd-docker-ec2"
         },
         {
+            "title":"Weather app",
+            "image": "/images/weather-app.jpg",
+            "desc": "Simple weather app based on openweather API",
+            "skills": ["Nodejs","Javscript", "Chart.js", "Bootstrap", "Redux"],
+            "github": "https://github.com/fishdev20/redux-weatherapp",
+            "link": "https://weatherapp-2971d.web.app/"
+        },
+        {
             "title":"Food Recipes",
             "image": "/images/coming_soon.jpeg",
             "desc": "Full stack food recipe. Backend with Springboot, Frontend with React, Typescript, MaterialUI, Database with PostgreSQL and Docker. Functionalities: Register, Login, CRUD recipes, auto genarate nutrions table so user can track calories, fat,... Coming soon!",
